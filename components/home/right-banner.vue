@@ -79,7 +79,7 @@ export default {
           name: 'food',
           alt: '美食',
           url:
-            'http://p0.meituan.net/codeman/a97baf515235f4c5a2b1323a741e577185048.jpg'
+            'http://p1.meituan.net/codeman/826a5ed09dab49af658c34624d75491861404.jpg'
         },
         {
           id: 3,
