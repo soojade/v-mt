@@ -156,6 +156,7 @@ export default {}
   left: -1110px;
   padding: 30px 36px 36px 47px;
   background-color: #fff;
+  z-index: 999;
 }
 .hotel,
 .food,

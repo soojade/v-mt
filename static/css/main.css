@@ -20,7 +20,9 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-color: #f8f8f8;
+}
 .layout-blank{
   background-color: #fff;
   color: #2e2f30;
@@ -53,11 +55,14 @@ a,.afont{
   opacity: 0
 }
 
+/*主体*/
 .center {
   width: 1200px;
   margin: 0 auto;
+
 }
 
+/*清除浮动影响*/
 .clearfix::before,
 .clearfix::after{
   display: table;
@@ -66,8 +71,13 @@ a,.afont{
 .clearfix::after {
     clear: both;
 }
+
 /*修复 element ui*/
 .el-header{
   padding: 0;
   height: 197px!important;
+}
+.el-main{
+  padding:  11px;
+  overflow: visible; /*解决menu上移部分的显示问题*/
 }

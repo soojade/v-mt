@@ -1,10 +1,13 @@
 <template>
-  <div class="container">
-    <h1>meituan</h1>
-  </div>
+  <home />
 </template>
 <script>
-export default {}
+import home from '@/components/home'
+export default {
+  components: {
+    home
+  }
+}
 </script>
 
 <style lang='scss'>

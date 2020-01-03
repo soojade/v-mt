@@ -136,13 +136,14 @@ export default {
     box-sizing: border-box;
     border: 1px solid #e5e5e5;
     border-top: none;
-    min-height: 72px;
+    min-height: 80px;
     padding: 5px;
     background: #fff;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     color: #999;
+    z-index: 999;
     .suggestion li {
       padding-top: 3px;
       padding-left: 10px;
