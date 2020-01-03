@@ -45,20 +45,29 @@ a,.afont{
 .active, a:hover, a:focus{
       color: #FE8C00;
 }
-.logo {
-  width: 243px;
-  height: 218px;
-}
-.center {
-  width: 1200px;
-  margin: 0 auto;
-}
-.el-header{
-  padding: 0;
-}
+
 .page-enter-active, .page-leave-active{
   transition: opacity .5s
 }
 .page-enter, .page-leave-active{
   opacity: 0
+}
+
+.center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix::before,
+.clearfix::after{
+  display: table;
+  content: '';
+}
+.clearfix::after {
+    clear: both;
+}
+/*修复 element ui*/
+.el-header{
+  padding: 0;
+  height: 197px!important;
 }
