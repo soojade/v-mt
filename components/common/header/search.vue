@@ -20,7 +20,7 @@
         <template v-if="isInput">
           <ul class="suggestion">
             <li v-for="item in suggestion" :key="item">
-              <nuxt-link :to="'/s/'+item">{{item}}</nuxt-link>
+              <nuxt-link :to="'/s/'+item">{{ item }}</nuxt-link>
             </li>
           </ul>
         </template>
@@ -30,7 +30,7 @@
             <span class="delete" @click="onDelete">删除搜索历史</span>
             <ul class="words clearfix">
               <li v-for="item in searchList" :key="item">
-                <nuxt-link :to="'/s/'+item">{{item}}</nuxt-link>
+                <nuxt-link :to="'/s/'+item">{{ item }}</nuxt-link>
               </li>
             </ul>
           </template>
