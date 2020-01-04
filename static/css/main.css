@@ -7,6 +7,11 @@
     url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.ttf') format('truetype'),
     url('//at.alicdn.com/t/font_682850_58yfbhz7jvf.svg#iconfont') format('svg');
 }
+/*menu 图标字体*/
+@font-face {
+  font-family: 'iconfontNew';
+  src: url('../font//iconfontNew.woff');
+}
 
 @font-face {
   font-family: 'meituan';
