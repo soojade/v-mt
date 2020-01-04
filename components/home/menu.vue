@@ -266,7 +266,7 @@ export default {
     onLeave() {
       this.timer = setTimeout(() => {
         this.kind = ''
-      }, 500)
+      }, 200)
     },
     onSubEnter() {
       clearInterval(this.timer)
@@ -303,12 +303,11 @@ export default {
     }
   }
   .hot {
-    padding: 2px 6px;
-    border-radius: 13px;
-    background-color: #fbf5e0;
-    transform: scale(0.9);
+    padding: 2px 5px;
+    border-radius: 12px;
+    background-color: #fdfdc3;
+    color: #222;
     &:hover {
-      color: #222;
       font-weight: 400;
       background: linear-gradient(to bottom right, #ffd000, #ffbd00);
     }

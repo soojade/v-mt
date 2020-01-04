@@ -206,6 +206,11 @@ export default {
       color: #3f3f3f;
     }
   }
+  /* 添加图片悬浮高亮效果*/
+  img:hover {
+    // filter: opacity(85%);
+    opacity: 0.85;
+  }
 }
 .el-carousel {
   width: 550px;
