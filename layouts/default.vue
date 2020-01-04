@@ -6,15 +6,19 @@
     <el-main>
       <nuxt />
     </el-main>
-    <el-footer>Footer</el-footer>
+    <el-footer>
+      <mtfooter />
+    </el-footer>
   </el-container>
 </template>
 
 <script>
 import mtheader from '@/components/common/header'
+import mtfooter from '@/components/common/footer'
 export default {
   components: {
-    mtheader
+    mtheader,
+    mtfooter
   }
 }
 </script>

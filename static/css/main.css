@@ -86,3 +86,6 @@ a,.afont{
   padding:  11px;
   overflow: visible; /*解决menu上移部分的显示问题*/
 }
+.el-footer{
+  height: 100%!important;
+}
