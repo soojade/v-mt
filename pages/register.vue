@@ -54,18 +54,7 @@
 <script>
 export default {
   layout: 'blank',
-  beforeRouteEnter(to, from, next) {
-    if (process.client) {
-      document.body.style.backgroundColor = '#fff'
-    }
-    next()
-  },
-  beforeRouteLeave(to, from, next) {
-    if (process.client) {
-      document.body.style.backgroundColor = ''
-    }
-    next()
-  },
+
   data() {
     return {
       ruleForm: {
