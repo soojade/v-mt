@@ -1,6 +1,6 @@
 <template>
   <el-container>
-    <el-header>
+    <el-header style="height: 197px">
       <mtheader />
     </el-header>
     <el-main>
@@ -22,5 +22,5 @@ export default {
   }
 }
 </script>
-<style>
+<style scoped>
 </style>

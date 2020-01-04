@@ -18,14 +18,8 @@
     <div class="login-card">
       <img class="avatar" src="//s0.meituan.net/bs/fe-web-meituan/e350c4a/img/avatar.jpg" alt="头像" />
       <p class="user-name">Hi！你好</p>
-      <a
-        class="btn-login"
-        href="https://passport.meituan.com/account/unitivesignup?service=www&amp;continue=https%3A%2F%2Fwww.meituan.com%2Faccount%2Fsettoken%3Fcontinue%3Dhttps%253A%252F%252Fjn.meituan.com%252F"
-      >注册</a>
-      <a
-        class="btn-login"
-        href="https://passport.meituan.com/account/unitivelogin?service=www&amp;continue=https%3A%2F%2Fwww.meituan.com%2Faccount%2Fsettoken%3Fcontinue%3Dhttps%253A%252F%252Fjn.meituan.com%252F"
-      >立即登录</a>
+      <nuxt-link class="btn-login" to="/register">注册</nuxt-link>
+      <nuxt-link class="btn-login" to="/login">立即登录</nuxt-link>
     </div>
     <div class="inn">
       <nuxt-link to="/hotel">

@@ -13,7 +13,7 @@
 
     <span class="user-entry">
       <nuxt-link to="/login" class="active">立即登录</nuxt-link>&nbsp;&nbsp;
-      <nuxt-link to="/regist">注册</nuxt-link>
+      <nuxt-link to="/register">注册</nuxt-link>
     </span>
   </div>
 </template>

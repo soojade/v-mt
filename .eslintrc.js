@@ -18,6 +18,7 @@ module.exports = {
     "vue/singleline-html-element-content-newline": "off",
     "vue/attributes-order": 'off',
     "vue/html-self-closing": 'off',
-    "vue/order-in-components": 'off'
+    "vue/order-in-components": 'off',
+    "arrow-parens": 'off'
   }
 }
